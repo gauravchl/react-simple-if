@@ -1,12 +1,13 @@
 {
   "name": "react-simple-if",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple react component for conditional rendering without ternary expression inside jsx;",
   "main": "dist/bundle.js",
   "scripts": {
-    "test": "jest",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production rollup -c",
-    "build:dev": "NODE_ENV=development rollup -c"
+    "build:dev": "NODE_ENV=development rollup -c",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
     "else"
   ],
   "author": "Gaurav Chikhale <mail@gauravchl.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gauravchl/react-simple-if/issues"
   },

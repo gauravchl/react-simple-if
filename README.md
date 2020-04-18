@@ -1,6 +1,6 @@
 # react-simple-if [![npm](https://img.shields.io/npm/v/react-simple-if.svg?maxAge=000)](https://www.npmjs.com/package/react-simple-if) [![npm](https://img.shields.io/npm/dm/react-simple-if.svg?maxAge=000)](https://www.npmjs.com/package/react-simple-if)
 
-A simple react component(just 109 Byte) for conditional rendering without ternary expression inside jsx;
+A simple react component for conditional rendering without ternary expression;
 
 **Install:**
 ```
