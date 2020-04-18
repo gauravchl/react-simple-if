@@ -27,5 +27,5 @@ const foo = true;
 
 Props | Type | Description
 ------|------ | -------------
-exp | boolean | Style for root element
+exp | boolean | boolean to control children's  renderability
 
